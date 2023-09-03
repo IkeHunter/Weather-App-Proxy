@@ -5,6 +5,7 @@ server {
         root /vol/client;
         index index.html index.htm;
     }
+    
     error_page 404 =200 /index.html;
 }
 
