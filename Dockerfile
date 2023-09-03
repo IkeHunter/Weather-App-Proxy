@@ -25,4 +25,6 @@ RUN mkdir -p /vol/static/ && \
 
 USER nginx
 
+VOLUME /vol/client
+
 CMD ["/entrypoint.sh"]
